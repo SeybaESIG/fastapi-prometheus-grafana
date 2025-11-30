@@ -19,16 +19,18 @@ L’objectif est de superviser des métriques essentielles d’une application c
 
 ## Structure du projet  
 
-fastapi-prometheus-grafana/  
-api/  
-main.py  
-requirements.txt  
-Dockerfile  
-monitoring/  
-prometheus.yml  
-docker-compose.yml  
-.gitignore  
-README.md  
+```
+fastapi-prometheus-grafana/
+├── api/
+│   ├── main.py
+│   ├── requirements.txt
+│   └── Dockerfile
+├── monitoring/
+│   └── prometheus.yml
+├── docker-compose.yml
+├── .gitignore
+└── README.md
+```
 
 ## Prérequis  
 
@@ -74,3 +76,4 @@ Grafana: [http://localhost:3000](http://localhost:3000)
 ## Licence  
 
 Libre d’utilisation pour toute expérimentation ou amélioration personnelle.  
+
