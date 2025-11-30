@@ -60,20 +60,18 @@ Grafana: [http://localhost:3000](http://localhost:3000)
 1. Se connecter à Grafana (admin / admin lors du premier accès).  
 2. Aller dans Connections → Data sources → Add data source.  
 3. Choisir Prometheus.  
-4. Renseigner l’URL suivante:  
-
-[http://prometheus:9090](http://prometheus:9090)  
-
+4. Renseigner l’URL suivante: [http://prometheus:9090](http://prometheus:9090)  
 5. Enregistrer avec Save & Test.  
 
 6. Créer un dashboard:  
    Dashboards → New → New dashboard → Add a new panel.  
-   Métries recommandées:  
 
-* http_requests_total  
-* http_request_duration_seconds_bucket  
+   Métries recommandées:
+   * http_requests_total
+   * http_request_duration_seconds_bucket  
 
 ## Licence  
 
 Libre d’utilisation pour toute expérimentation ou amélioration personnelle.  
+
 
